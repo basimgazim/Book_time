@@ -1,0 +1,158 @@
+h1,h2,h3,h4,h5,h6{
+    color: rgb(2, 26, 93);
+    font-weight: 700px;
+}
+header nav ul  li {
+    width: 100%;
+   height: 100px;
+    background-color: rgb(6, 151, 171);
+    text-align: center;
+    color: rgb(218, 227, 235);
+display:inline;
+
+font-size-adjust: 15px;
+border-radius: 15px;
+
+}
+.img_logo{
+    width: 4em;
+    height:4em;
+}
+#img_main{
+    width: 100%;
+    height: 300%;
+}
+header nav ul li{
+    list-style-type: none;
+    margin:40px;
+    padding: 30px;
+}
+header>nav >ul>li>a{
+    padding: 6px 20px 6px 20px;
+    color: rgb(249, 249, 254);
+    font-size: 15px;
+    text-decoration: none;
+    border: 3px solid rgb(97, 183, 182);
+    border-radius: 15px;
+    
+}
+#menu span 
+{
+    margin-right: 20px;
+    margin-top: 24px;
+    background-color: rgb(61, 135, 167);
+    color: rgb(23, 50, 50);
+    padding: 20px 15px 20px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+p.menu
+{
+    text-indent: 10px;
+    font-style: italic;
+    overflow: visible;
+}
+aside*{
+    color: blueviolet(180,116,33);
+    list-style-type: none;
+}
+#content input{
+    width: 40%;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid rgb(90, 47, 47);
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'cairo';
+
+}
+input[type='submit']
+{
+    background-color: rgb(8, 62, 84);
+    border:2px solid rgb(185, 189, 189);
+    color:white ;
+}
+#content input ::placeholder
+{
+    color: #d48;
+}
+textarea{
+    width: 80%;
+    height:100px;
+    padding: 3px;
+    border: 1px solid rgba(63, 198, 216, 0.596);
+    margin: 10px;
+    border-radius:5px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(11, 61, 73);
+}
+div+form{
+    padding: 20px;
+
+}
+#footer
+{
+    background-color: rgb(193, 206, 208);
+    color: rgb(46, 8, 34);
+    padding: 5px;
+    border-radius: 30px;
+    margin: 5px;
+    text-align:center;
+}
+#footer .icon>li{
+    list-style-type: none;
+}
+ nav ul  li  :hover{
+background-color:rgb(208, 103, 150);
+
+color: black;
+}
+#ii{
+ 
+    color: #d48;
+    text-decoration: none;
+}/*
+ul li ul li :hover{
+    background: #d48;
+}
+ul li ul li{
+    background:rgb(68, 173, 221);
+    display: block;
+    border-top: 1px solid rgb(218, 227, 235);
+}
+ul li ul{
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    width: 250px;
+    display: none;
+    box-shadow: rgb(68, 190, 221);
+    z-index: 4;
+}
+ul li ul li:hover{
+    background: #d48;
+}*/
+aside div  ul li{
+border: 3px solid wheat;
+border-radius: 10px;
+width: 150px;
+height: 50px;
+text-align-last: center;
+display: inline;
+margin: 20px;
+padding: 10px;
+}
+#li{
+    position: absolute;
+top: 0%;
+left:  0%;
+width: 100px;
+}
+p{
+color: black;
+font-style: normal;
+font-family:initial;
+size: 20px;
+padding: 20px;
+margin: 5px;
+}
